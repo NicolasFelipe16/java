@@ -1,3 +1,5 @@
+package br.com.nicolas.screenmatch.principal;
+
 import br.com.nicolas.screenmatch.calculos.CalculadoraDeTempo;
 import br.com.nicolas.screenmatch.calculos.FiltroRecomendacao;
 import br.com.nicolas.screenmatch.modelos.Episodio;
@@ -5,7 +7,6 @@ import br.com.nicolas.screenmatch.modelos.Filme;
 import br.com.nicolas.screenmatch.modelos.Serie;
 
 import java.util.ArrayList;
-import java.util.logging.Filter;
 
 public class Principal {
     public static void main(String[] args) {
@@ -50,7 +51,6 @@ public class Principal {
         filmeDoNicolas.avalia(10);
 
         ArrayList<Filme> listaDeFilmes = new ArrayList<>();
-
         listaDeFilmes.add(filmeDoNicolas);
         listaDeFilmes.add(meuFilme);
         listaDeFilmes.add(outroFilme);
