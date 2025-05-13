@@ -4,6 +4,7 @@ import br.com.nicolas.screenmatch.modelos.Episodio;
 import br.com.nicolas.screenmatch.modelos.Filme;
 import br.com.nicolas.screenmatch.modelos.Serie;
 
+import java.util.ArrayList;
 import java.util.logging.Filter;
 
 public class Principal {
@@ -49,5 +50,20 @@ public class Principal {
         episodio.setSerie(lost);
         episodio.setTotalVisualizacoes(300);
         filtro.filtra(episodio);
+
+        var filmeDoNicolas = new Filme();
+        filmeDoNicolas.setDuracaoEmMinutos(200);
+        filmeDoNicolas.setNome("Dogville");
+        filmeDoNicolas.setAnoDeLancamento(2003);
+        filmeDoNicolas.avalia(10);
+
+        ArrayList<Filme> listaDeFilmes = new ArrayList<>();
+
+        listaDeFilmes.add(filmeDoNicolas);
+        listaDeFilmes.add(meuFilme);
+        listaDeFilmes.add(outroFilme);
+        System.out.println("Tamanho da lista: " + listaDeFilmes.size());
+        System.out.println("Primeiro filme: " + listaDeFilmes.get(0).getNome());
+        System.out.println(listaDeFilmes);
     }
 }
