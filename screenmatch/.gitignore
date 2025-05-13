@@ -28,4 +28,8 @@ bin/
 ### Mac OS ###
 .DS_Store
 
+<<<<<<< HEAD
 .idea/workspace.xml
+=======
+.idea/workspace.xml
+>>>>>>> fb64dd0614eff4ecce721ae7c5e2efcc8616eaea
