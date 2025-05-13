@@ -1,6 +1,10 @@
 import br.com.nicolas.screenmatch.calculos.CalculadoraDeTempo;
+import br.com.nicolas.screenmatch.calculos.FiltroRecomendacao;
+import br.com.nicolas.screenmatch.modelos.Episodio;
 import br.com.nicolas.screenmatch.modelos.Filme;
 import br.com.nicolas.screenmatch.modelos.Serie;
+
+import java.util.logging.Filter;
 
 public class Principal {
     public static void main(String[] args) {
@@ -36,5 +40,14 @@ public class Principal {
         calculadora.inclui(outroFilme);
         calculadora.inclui(lost);
         System.out.println(calculadora.getTempoTotal());
+
+        FiltroRecomendacao filtro = new FiltroRecomendacao();
+        filtro.filtra(meuFilme);
+
+        Episodio episodio = new Episodio();
+        episodio.setNumero(1);
+        episodio.setSerie(lost);
+        episodio.setTotalVisualizacoes(300);
+        filtro.filtra(episodio);
     }
 }
