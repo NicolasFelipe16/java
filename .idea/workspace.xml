@@ -34,6 +34,7 @@
   "keyToString": {
     "Application.Desafio.executor": "Run",
     "Application.Principal.executor": "Run",
+    "Application.PrincipalComBusca.executor": "Run",
     "Application.PrincipalComListas.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
