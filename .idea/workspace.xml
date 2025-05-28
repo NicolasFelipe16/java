@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="448c64a6-b480-4456-a2be-d878c0ef0e31" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/screenmatch/br/com/nicolas/screenmatch/modelos/Titulo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/screenmatch/br/com/nicolas/screenmatch/modelos/Titulo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/screenmatch/br/com/nicolas/screenmatch/principal/PrincipalComBusca.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/screenmatch/br/com/nicolas/screenmatch/principal/PrincipalComBusca.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
